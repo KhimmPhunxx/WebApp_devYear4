@@ -22,7 +22,7 @@
     align-items: center;
     position: fixed;
     transform: translateX(100%);
-    animation: MoveLeft 0.5s linear forwards;
+    animation: MoveLeft 01s linear forwards;
 }
 @keyframes MoveLeft {
     100%{
