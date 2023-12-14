@@ -22,7 +22,7 @@
     align-items: center;
     position: fixed;
     transform: translateX(100%);
-    animation: MoveLeft 01s linear forwards;
+    animation: MoveLeft 0.5s linear forwards;
 }
 @keyframes MoveLeft {
     100%{
@@ -62,5 +62,11 @@
     #toastBox{
         top: 0px;
         right: 10px;
+    }
+  }
+  @media only screen and (min-width: 900px) {
+    #toastBox{
+        top: 0px;
+        right: 140px;
     }
   }
